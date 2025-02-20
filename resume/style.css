@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Andika';
+  src: url('./assets/fonts/Andika/Andika-Bold.ttf'),
+    url('./assets/fonts/Andika/Andika-BoldItalic.ttf'),
+    url('./assets/fonts/Andika/Andika-Italic.ttf'),
+    url('./assets/fonts/Andika/Andika-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Onest';
+  src: url('./assets/fonts/Onest/Onest-VariableFont_wght.ttf');
+}

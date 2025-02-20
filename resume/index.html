@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Резюме</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="body">
+  <header class="header">
+    <div class="wrapper header__wrapper">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#about-me" class="nav__link">Обо мне</a></li>
+          <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Навык</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">Проекты</a></li>
+          <li class="nav__item"><a href="#courses" class="nav__link">Курсы</a></li>
+          <li class="nav__item"><a href="#education" class="nav__link">Образование</a></li>
+          <li class="nav__item"><a href="#english" class="nav__link">Английский</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="about-me" id="about-me">
+      <div class="wrapper about-me__wrapper">
+        <div class="about-me__image-container"><img src="./assets/img/my-photo/" alt="моя фотография" class="about-me__image"></div>
+        <div class="about-me__info">
+          <h1 class="about-me__title">Юрина Екатерина</h1>
+          <p class="about-me__description">Я начинающий Frontend-разработчик с желанием учиться и развиваться в области программирования. Моя цель — стать полноценным разработчиком, и я активно работаю над улучшением и расширением своих знаний. Я занималась самостоятельным онлайн изучением HTML, CSS и JavaScript и применяла свои знания в нескольких учебных проектах:</p>
+          <ul class="about-me__list">
+            <li class="about-me__item">Верстка адаптивного, двухстраничного сайта, согласно дизайну в Figma, с использованием препроцессора Sass(2 таких проекта).</li>
+            <li class="about-me__item">Реализация игры, где все необходимые элементы генерируются с помощью JavaScript (изначально body в файле index.html разрешен только тег script)(2 игры).</li>
+            <li class="about-me__item">Создание аудиоплеера с возможностью проигрывания музыки.</li>
+            <li class="about-me__item">Разработка галереи изображений</li>
+          </ul>
+          <p class="about-me__description">Я стремлюсь продолжать обучение и развиваться в области Frontend-разработки.</p>  
+        </div>
+      </div>
+    </section>
+    <section class="contacts" id="contacts">
+      <div class="wrapper contacts__wrapper">
+        <h2 class="contacts__title">Контакты:</h2>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <img class="contacts__icon" src="./assets/img/contacts/location.svg" alt="иконка локации">
+            <span class="contacts__text">Местоположение: Россия, Хабаровский край, г. Комсомольск-на-Амуре</span>
+          </li>
+          <li class="contacts__item">
+            <img class="contacts__icon" src="./assets/img/contacts/telegram.svg" alt="иконка Telegram">
+            <span class="contacts__text">Telegram: <a href="https://t.me/i_besyashka" class="contacts__link" target="_blank">@i_besyashka</a></span>
+          </li>
+          <li class="contacts__item">
+            <img class="contacts__icon" src="./assets/img/contacts/email.svg" alt="иконка Email">
+            <span class="contacts__text">Email: <a href="mailto:komsa_9191@mail.ru" class="contacts__link" target="_blank">komsa_9191@mail.ru</a></span>
+          </li>
+          <li class="contacts__item">
+            <img class="contacts__icon" src="./assets/img/contacts/github.svg" alt="иконка GitHub">
+            <span class="contacts__text">GitHub: <a href="https://github.com/besyashka" class="contacts__link" target="_blank">besyashka</a></span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="wrapper skills__wrapper">
+        <h2 class="skills__title">Навыки:</h2>
+        <ul class="skills__list">
+          <li class="skills__item"><img src="./assets/img/skills/html.svg" alt="иконка HTML" class="skills__icon"><span class="skills__text">HTML</span></li>
+          <li class="skills__item"><img src="./assets/img/skills/css.svg" alt="иконка CSS" class="skills__icon"><span class="skills__text">CSS</span></li>
+          <li class="skills__item"><img src="./assets/img/skills/js.svg" alt="иконка JavaScript" class="skills__icon"><span class="skills__text">JavaScript</span></li>
+          <li class="skills__item"><img src="./assets/img/skills/sass.svg" alt="иконка Sass" class="skills__icon"><span class="skills__text">Sass</span></li>
+          <li class="skills__item"><img src="./assets/img/skills/git.svg" alt="иконка Git" class="skills__icon"><span class="skills__text">Git</span></li>
+          <li class="skills__item"><img src="./assets/img/skills/github.svg" alt="иконка Github" class="skills__icon"><span class="skills__text">GitHub</span></li>
+          <li class="skills__item"><img src="./assets/img/skills/figma.svg" alt="иконка Figma" class="skills__icon"><span class="skills__text">Figma</span></li>
+        </ul>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="wrapper projects__wrapper">
+        <h2 class="projects__title">Проекты:</h2>
+        <div class="projects__list">
+          <div class="projects__item">
+            <a href="https://besyashka.github.io/my-projects-rss/shelter/" class="projects__link" target="_blank">
+              <img src="./assets/img/projects/shelter.png" alt="картинка проекта - Приют" class="projects__image">
+            </a>
+            <h3 class="projects__name">Shelter</h3>
+            <p class="projects__description">Приют - это сайт приюта для животных, где можно подробнее ознакомиться с информацией о каждом питомце, находящемся в приюте. Сайт разработан адаптивным дизайном и состоит из двух страниц, согласно макету в Figma.</p>
+          </div>
+          <div class="projects__item">
+            <a href="https://besyashka.github.io/project-Coffee-house/coffee-house/" class="projects__link" target="_blank">
+              <img src="./assets/img/projects/coffee-house.png" alt="картинка проекта - Кофейня" class="projects__image">
+            </a>
+            <h3 class="projects__name">Coffee house</h3>
+            <p class="projects__description">Кофейня - это сайт, который предоставляет информацию о кафе и  позволяет ознакомиться с его меню. Сайт разработан с адаптивным дизайном и состоит из двух страниц, согласно макету в Figma. (в разработке)</p>
+          </div>
+          <div class="projects__item">
+            <a href="https://besyashka.github.io/nonograms-game/nonograms/" class="projects__link" target="_blank">
+              <img src="./assets/img/projects/nonograms.png" alt="картинка проекта - Японский кроссворд" class="projects__image">
+            </a>
+            <h3 class="projects__name">Nonograms</h3>
+            <p class="projects__description">Японский кроссворд — игра головоломка, в которой зашифровано некоторое изображение, с помощью цифр. Целью головоломки является полное восстановление этого изображения. Есть возможность выбрать желаемый шаблон картинки для игры игра или случайный. Все необходимые элементы генерируются с помощью JavaScript.</p>
+          </div>
+          <div class="projects__item">
+            <a href="https://besyashka.github.io/my-projects-rss/random-game/" class="projects__link" target="_blank">
+              <img src="./assets/img/projects/hangman.png" alt="картинка проекта - Виселица" class="projects__image">
+            </a>
+            <h3 class="projects__name">Hangman</h3>
+            <p class="projects__description">Виселица — классическая игра в слова, где нужно найти правильный ответ, угадывая буквы по одной. Можно использовать как виртуальную, так и физическую клавиатуру. Все необходимые элементы генерируются с помощью JavaScript. (в разработке)</p>
+          </div>
+          <div class="projects__item">
+            <a href="https://besyashka.github.io/my-projects-rss/audio-player/" class="projects__link" target="_blank">
+              <img src="./assets/img/projects/audio-player.png" alt="картинка проекта - Аудиоплеер" class="projects__image">
+            </a>
+            <h3 class="projects__name">Audio player</h3>
+            <p class="projects__description">Аудиоплеер - это музыкальный плеер, позволяющий по очереди проигрывать музыкальные треки или перелистывать их с помощью кнопок. Каждому музыкальному треку соответствует определённое изображение, название и автор. Отображается продолжительность аудиотрека и его текущее время проигрывания.</p>
+          </div>
+          <div class="projects__item">
+            <a href="https://besyashka.github.io/my-projects-rss/image-gallery/" class="projects__link" target="_blank">
+              <img src="./assets/img/projects/image-gallery.png" alt="картинка проекта - Галерея" class="projects__image">
+            </a>
+            <h3 class="projects__name">Image Gallery</h3>
+            <p class="projects__description">Галерея изображений - это приложение, которое отображает фотографии, полученные от API. В приложении реализован поиск: при вводе поискового запроса изменяются отображаемые фотографии.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="courses" id="courses">
+      <div class="wrapper courses__wrapper">
+        <h2 class="course__title">Курсы:</h2>
+        <a href="https://stepik.org/cert/2104894" class="courses__link"><img src="./assets/img/certificates/certificate-1.png" alt="сертификат" class="courses__image"></a>
+        <a href="https://app.rs.school/certificate/u1b3ekcw" class="courses__link"><img src="./assets/img/certificates/certificate-2.png" alt="сертификат" class="courses__image"></a>
+      </div>
+    </section>
+    <section class="education" id="education">
+      <div class="wrapper education-english__wrapper">
+        <h2 class="education__title">Образование:</h2>
+        <p>среднее специальное – медицинский лабораторный техник</p>
+        <p>Хабаровский государственный медицинский колледж им. Г.С. Макарова г. Комсомольске-на-Амуре</p>
+      </div>
+    </section>
+    <section class="english" id="english">
+      <div class="wrapper education-english__wrapper">
+        <h2 class="english__title">Английский:</h2>
+        <p>A1</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="wrapper footer__wrapper">
+      <a href="https://github.com/besyashka" class="footer__link"><img src="./assets/img/contacts/github.svg" alt="иконка Github" class="footer__icon"></a>
+      <p>&copy; 2025</p>
+    </div>
+  </footer>
+</body>
+</html>
