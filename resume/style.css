@@ -10,3 +10,11 @@
   font-family: 'Open Sans';
   src: url('./assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
 }
+
+:root {
+  --color-primary: #88706B;
+  --color-bg:  #ffffff;
+  --color-light: #f4f4f4;
+  --color-link: #025d7f;
+  --color-hover: #00A3E0;
+}
