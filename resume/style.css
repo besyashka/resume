@@ -1,9 +1,7 @@
 @font-face {
   font-family: 'Andika';
-  src: url('./assets/fonts/Andika/Andika-Bold.ttf'),
-    url('./assets/fonts/Andika/Andika-BoldItalic.ttf'),
-    url('./assets/fonts/Andika/Andika-Italic.ttf'),
-    url('./assets/fonts/Andika/Andika-Regular.ttf');
+  src: url('./assets/fonts/Andika/Andika-Bold.ttf'), url('./assets/fonts/Andika/Andika-BoldItalic.ttf'),
+    url('./assets/fonts/Andika/Andika-Italic.ttf'), url('./assets/fonts/Andika/Andika-Regular.ttf');
 }
 
 @font-face {
@@ -12,8 +10,8 @@
 }
 
 :root {
-  --color-primary: #88706B;
-  --color-bg:  #ffffff;
+  --color-primary: #88706b;
+  --color-bg: #ffffff;
   --color-light: #f4f4f4;
   --color-text: #524d4d;
   --color-link: #025d7f;
